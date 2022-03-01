@@ -1,0 +1,25 @@
+button.Square {
+    border: 2px solid grey;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+    width:90px;
+    height:90px;
+}
+
+.Square:nth-child(1), .Square:nth-child(2), .Square:nth-child(3) {
+    border-top: 0px;
+}
+
+.Square:nth-child(1), .Square:nth-child(4), .Square:nth-child(7) {
+    border-left: 0px;
+}
+
+.Square:nth-child(3), .Square:nth-child(6), .Square:nth-child(9) {
+    border-right: 0px;
+}
+
+.Square:nth-child(7), .Square:nth-child(8), .Square:nth-child(9) {
+    border-bottom: 0px;
+}

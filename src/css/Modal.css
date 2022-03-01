@@ -1,0 +1,31 @@
+.Modal {
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 350px;
+    width: 500px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: -1px 2px 24px -5px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -1px 2px 24px -5px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 2px 24px -5px rgba(0,0,0,0.7);
+}
+
+.Modal.display-none {
+    display: none;
+}
+
+.Modal-button-close {
+    float: right;
+    margin: 10px;
+}
+
+.Modal-message {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+}

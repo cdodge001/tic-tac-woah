@@ -1,0 +1,13 @@
+.Board {
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 270px;
+    box-shadow: 6px 4px 20px -2px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 6px 4px 20px -2px rgba(0,0,0,0.52);
+    -moz-box-shadow: 6px 4px 20px -2px rgba(0,0,0,0.52);
+    border: 4px outset grey;
+    margin: 20px auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}

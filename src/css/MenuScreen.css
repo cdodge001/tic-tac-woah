@@ -1,0 +1,23 @@
+.MenuScreen {
+    width: 100%;
+    height: calc(100% - 52px);
+    position: absolute;
+    top: 52px;
+    left: 0px;
+}
+
+.MenuScreen-inner {
+    position: absolute;
+    top: 100px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.MenuScreen ul {
+    list-style: none;
+    padding-inline: 0;
+}
+
+.MenuScreen li {
+    padding: 5px 0;
+}

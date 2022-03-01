@@ -1,0 +1,28 @@
+.GameOverScreen {
+    width: 100%;
+    height: calc(100% - 52px);
+    position: absolute;
+    top: 52px;
+    left: 0px;
+}
+
+.GameOverScreen-inner {
+    position: absolute;
+    top: 100px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.GameOverScreen ul {
+    list-style: none;
+    padding-inline: 0;
+}
+
+.GameOverScreen li {
+    padding: 5px 0;
+}
+
+.game-results-text {
+    font-size: large;
+    margin-top: 10px;
+}
